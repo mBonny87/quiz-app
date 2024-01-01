@@ -1,0 +1,22 @@
+[
+  {
+    "id": "e63f3b1e-2f72-4daf-99b8-d82500d62801",
+    "label": "Informatica"
+  },
+  {
+    "id": "df68b6ad-bea2-4fd9-b5f4-4f5b181ae757",
+    "label": "Matematica"
+  },
+  {
+    "id": "c082043c-7c4e-48d6-979f-943b0a94b8d0",
+    "label": "Scienze"
+  },
+  {
+    "id": "d3fd11b0-4ddf-445d-8d79-ea6a95856183",
+    "label": "Design"
+  },
+  {
+    "id": "56bfe5de-4526-4c49-888f-d53c1588fa6b",
+    "label": "Storia"
+  }
+]

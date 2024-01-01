@@ -1,0 +1,1614 @@
+{
+  "quizzes": [
+    {
+      "id": "c88a0a96-6fc9-4427-ab08-6afe39a5cd16",
+      "title": "Kubernetes",
+      "subtitle": "Perché nel 2023 un software engineer dovrebbe saper utilizzare Kubernetes?",
+      "topic": "Software engineering",
+      "text": "Kubernetes è un sistema open source che ti aiuta a distribuire, scalare e gestire applicazioni containerizzate ovunque tu abbia bisogno di eseguirle, sia su cloud pubblici, privati o ibridi, sia su ambienti locali o edge. Kubernetes offre un’astrazione del livello di infrastruttura, permettendoti di concentrarti sulla logica e sulle funzionalità delle tue applicazioni, senza doverti preoccupare dei dettagli di basso livello relativi al provisioning, alla manutenzione e alla sicurezza dei server, delle reti e dello storage23. Kubernetes si basa sul concetto di container, che sono unità di calcolo leggere ed eseguibili che racchiudono il codice e le dipendenze delle applicazioni in un formato standardizzato e portabile4. Kubernetes ti consente di orchestrare i tuoi container in modo efficiente ed efficace, gestendo aspetti come il bilanciamento del carico, la scalabilità orizzontale, il recupero da errori, l’aggiornamento continuo, la configurazione e il monitoraggio",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/3107/78b6/7831082abdc11824ebfdc6d6c7cf3f39?Expires=1704067200&Signature=et26jGi416k9F8VcAjcJUaguaVBgdUDVuoXUYqe9-mGD18KGtTF3zra~~JEHYVuURSo9WyhfV9BZslu8h2HryR7TQ4sPva85nr7hdQkL1U8nqoQxxI7F60CpZUuK0DMQ-Wt5rizluILbBnPMVwh3DPNbcleBgesEYou9EmmuatWKbU9JMKJZFOv1GoGFe2U-yUlXsV1a5ufyXqDMgrig9apHwQ9flXSM~PLis9iafk7wzvNYIU7XtcoSddZJrn6eQpYrmPg7Oi7UXSoZnNfB9gPeFR6GHtHf9Tag5SftNMGmcOTUzKgUkHifqRWLK-ku36gfPAbbrmE8zSFuyUlTfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "questions": [
+        {
+          "title": "Cos'è un pod in Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "b2fd3a58-1294-4d0c-ae76-84a3e7ce601f",
+                "text": "La più piccola unità gestita da Kubernetes, che può contenere uno o più container"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "c783b41f-ff3c-496a-ba38-7e4484d8c89e",
+                "text": "Un singolo container in esecuzione su un nodo"
+              },
+              {
+                "id": "d1477b88-cb20-4ef6-b188-0982d244327a",
+                "text": "Un modulo software di rete utilizzato da Kubernetes"
+              },
+              {
+                "id": "a75c6a49-3e44-4167-a979-4bfc53e93742",
+                "text": "Un'istanza di un'applicazione in esecuzione su un cluster Kubernetes"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è la funzione principale del servizio Kubernetes 'NodePort'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "0d6a8e1c-6e3f-43cd-ba09-cf172d7e485a",
+                "text": "Esposizione di un servizio su una porta statica del nodo"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "7a7588f3-4bf9-4f20-af4b-1d590a86c8f8",
+                "text": "Bilanciamento del carico tra i nodi del cluster"
+              },
+              {
+                "id": "ea9b33e4-6e29-4a27-8bc3-5126a5cf29c3",
+                "text": "Creazione di un nuovo nodo nel cluster"
+              },
+              {
+                "id": "8e2e4f17-0ddc-4e1c-8a33-c2ce49376b41",
+                "text": "Gestione della sicurezza delle risorse del nodo"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è il ruolo di 'kubectl' nel contesto di Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "2f69d07a-4c46-41e7-bc6f-0e9e2549a855",
+                "text": "Una interfaccia della riga di comando (CLI) per interagire con cluster Kubernetes"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "165a5ad2-4a37-4b1d-8f3e-8c48aa28f67e",
+                "text": "Un servizio di monitoraggio delle risorse del cluster"
+              },
+              {
+                "id": "9e3a76d2-207c-42e7-9a1d-4486730843bb",
+                "text": "Un componente del sistema operativo del nodo"
+              },
+              {
+                "id": "e5db5d7f-0f1b-49b3-8ac0-c69b7c707f2c",
+                "text": "Un linguaggio di programmazione specifico di Kubernetes"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa si intende per 'Rolling Deployment' in Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "c5b5c196-276c-4c10-baa9-90a5422e1db3",
+                "text": "Un metodo per aggiornare un'applicazione senza interruzioni, sostituendo gradualmente le vecchie istanze con le nuove"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "c8a9f679-7ac6-4d61-8c93-3abedaf2e98d",
+                "text": "Un'operazione di arresto e avvio simultaneo di tutte le istanze dell'applicazione"
+              },
+              {
+                "id": "8ff5f9a1-15d7-4ba5-a340-e7a65fb30017",
+                "text": "La creazione di una copia identica dell'applicazione su un altro cluster Kubernetes"
+              },
+              {
+                "id": "303ec3a9-2596-45e7-9a90-ece7be50c999",
+                "text": "Un'operazione che richiede la creazione di un nuovo cluster per l'applicazione"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il concetto di 'Namespace' in Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "62d04cfd-45cc-4a3a-8883-77b0bf5f9e6d",
+                "text": "Un modo per isolare e organizzare gli oggetti all'interno di un cluster"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "f161c1d8-4994-4e67-a3a2-274dbca3e71d",
+                "text": "Un livello di isolamento tra diversi cluster Kubernetes"
+              },
+              {
+                "id": "fd48fe97-700d-4e23-95d2-ea50b6f51525",
+                "text": "Un tipo di risorsa di archiviazione persistente in Kubernetes"
+              },
+              {
+                "id": "4dd6cd0c-c6da-4ab5-b631-b113e3e2bb57",
+                "text": "Una specifica versione di un'applicazione in esecuzione su Kubernetes"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Come gestisce Kubernetes la distribuzione di applicazioni su più nodi?",
+          "answers": {
+            "correct": [
+              {
+                "id": "a6749c8c-8d56-4a84-944d-7801d09baf3a",
+                "text": "Utilizzando il concetto di 'ReplicaSet' per mantenere il numero desiderato di repliche in esecuzione"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "4f3d8a99-d7b2-4921-9d63-d93655b8a363",
+                "text": "Spostando manualmente le istanze dell'applicazione tra i nodi"
+              },
+              {
+                "id": "e305eada-4a8d-4a13-9531-8d313c2dbad2",
+                "text": "Creando copie identiche dell'applicazione su ciascun nodo"
+              },
+              {
+                "id": "47d3c7b2-9122-4ff8-8eab-5d1c87410fbf",
+                "text": "Assegnando nodi specifici per ciascuna istanza dell'applicazione"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è l'obiettivo principale del componente 'etcd' in un cluster Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "e747d57d-b6b0-4f6f-95db-40d76c9e667f",
+                "text": "Memorizzazione dello stato del cluster, inclusi i dati di configurazione e le informazioni sullo stato"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a8c65a68-6c5e-4cf9-933a-49f8b8e888e9",
+                "text": "Esecuzione delle applicazioni containerizzate"
+              },
+              {
+                "id": "41a78c4c-3a87-4f95-a241-4a5a18bcf650",
+                "text": "Gestione del bilanciamento del carico del cluster"
+              },
+              {
+                "id": "d723042d-f35f-480a-aa6d-034c401b5c3d",
+                "text": "Registrazione e monitoraggio delle attività dei container"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa si intende per 'Control Plane' (o piano di controllo) in Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "f6ac1e29-d695-4975-b35c-0a9e0eef3af2",
+                "text": "Il componente che gestisce e controlla lo stato complessivo del cluster"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "2b115524-3c2d-4500-9e0d-0e4e1e7e8b11",
+                "text": "Un'interfaccia grafica per la gestione dei container"
+              },
+              {
+                "id": "de0c25c1-4e23-40eb-8235-d7587b5bfa21",
+                "text": "Un componente dedicato alla gestione della rete del cluster"
+              },
+              {
+                "id": "f6c7e6d4-89e2-4b62-bf3d-19cf186c628c",
+                "text": "Il componente che gestisce l'accesso e l'autenticazione degli utenti"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Come affronta Kubernetes il problema dell'allocazione delle risorse nei container?",
+          "answers": {
+            "correct": [
+              {
+                "id": "2af3b2f9-3a90-4c16-9a7b-201b6c747f8b",
+                "text": "Attraverso il concetto di 'Limiti' e 'Richieste' di risorse assegnate ai container"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "8903c686-9b3f-4561-8ef2-4aa9b346c2f1",
+                "text": "Assegnando risorse in modo casuale ai container"
+              },
+              {
+                "id": "6a01a067-3f35-4b14-bd7d-622b3ea97c1b",
+                "text": "Fissando una quantità fissa di risorse per tutti i container"
+              },
+              {
+                "id": "1058993f-7877-45bf-a7f3-e9bf6e9775ec",
+                "text": "Lasciando che i container condividano liberamente le risorse del nodo"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è il ruolo principale di 'kube-proxy' in Kubernetes?",
+          "answers": {
+            "correct": [
+              {
+                "id": "f6c88d3f-c33c-48a0-8f6b-1d06f44b8d65",
+                "text": "Gestire le regole di rete all'interno del cluster e abilitare la comunicazione tra i pod"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "e5003d10-876d-4a2e-b07e-9bebc179c0f4",
+                "text": "Monitorare le prestazioni del cluster Kubernetes"
+              },
+              {
+                "id": "f590eac4-8c94-4f68-9d14-320db72aa6b1",
+                "text": "Fornire l'accesso all'interfaccia web del cluster"
+              },
+              {
+                "id": "4a0e5b10-6c98-4c10-b6f5-3bf0d66a50d2",
+                "text": "Gestire la persistenza dei dati dei container"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "9b3ea641-ef25-40dd-b539-62a2b6f64757",
+      "title": "Design Pattern",
+      "subtitle": "Testa la tua conoscenza sui design pattern utilizzati nell'Ingegneria del Software.",
+      "topic": "Software engineering",
+      "text": "I design pattern sono soluzioni generiche a problemi ricorrenti nello sviluppo del software. Rispondi alle seguenti domande per testare la tua comprensione dei design pattern utilizzati nell'Ingegneria del Software.",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/f806/7059/cdcbfcc890e481fc69499cea6bf37497?Expires=1704672000&Signature=nSoNpXsDYlTMvWB8RIAYRs3V7c4gQEyIF9wFCPgaOnFKQZNkg3H3O7i6a8z9Wf1hGDC91pCKNWr9E~tJ7tGXomNgOR222rVflI5TfvfoIwL7i5tPtXO1Xwtq7HS7rECo3IP7SclQmc4L307MMzaCZkeY~PiF3PdWGkO97U~Gi8x5AhaAEEwuKJvEp-RVC6bad68wur5~Eddm8Vv9A0~L~1jvKeeGHQ8-HVflBUcsVTAHQvAlIgXc89GeXWqQplt7SodnHihtPz3heZScPkiig9JUz02kjWj4UNuJJix4e13mtqJ~EpBCf2YfTY2Nl5m0WULxJOz1TWm9~tfcqHLnqg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "questions": [
+        {
+          "title": "Cos'è un design pattern?",
+          "answers": {
+            "correct": [
+              {
+                "id": "f12e89ef-93ab-45f2-8d07-3f7d50cf2c6a",
+                "text": "Una soluzione generica a un problema ricorrente nello sviluppo del software"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "c73d4d86-5c6d-4cb4-87cf-b8c9386e68f7",
+                "text": "Un algoritmo specifico per un problema unico"
+              },
+              {
+                "id": "f09829e3-741e-4879-af7d-843e2e4a282b",
+                "text": "Un linguaggio di programmazione specifico"
+              },
+              {
+                "id": "396fc93b-6cfe-4f0d-94a9-7e5410bcfe3a",
+                "text": "Un framework di sviluppo software"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è lo scopo del design pattern 'Singleton'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "9e236924-68e1-4c6f-906c-6da7d729be0d",
+                "text": "Garantire che una classe abbia una sola istanza e fornire un punto di accesso globale a essa"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "9e9d8a46-7a29-48fb-89e5-60e7c20b8e8b",
+                "text": "Creare una nuova istanza di classe ogni volta che viene richiesta"
+              },
+              {
+                "id": "cf8c1d46-f508-4d7b-8e16-bdf7b5ef4ab3",
+                "text": "Garantire che una classe abbia più istanze indipendenti"
+              },
+              {
+                "id": "e39f27f1-62b9-43b7-8a4b-48c90758ec46",
+                "text": "Limitare l'accesso alle istanze di una classe"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa fa il design pattern 'Observer'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ee3b4a60-e0ee-400a-bc52-9d773c55a72d",
+                "text": "Definisce una dipendenza uno a molti tra oggetti in modo che quando un oggetto cambia stato, tutti i suoi dipendenti vengano notificati e aggiornati automaticamente"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "9a8ea9e2-f8ab-45a9-9b63-8b7dab99b1f8",
+                "text": "Limita l'accesso a un oggetto solo a chi ne ha bisogno"
+              },
+              {
+                "id": "a8e88b9b-3a2a-4c6a-bf97-2e05f9e9477a",
+                "text": "Crea un'istanza di una classe solo quando richiesto"
+              },
+              {
+                "id": "465f31f3-3e1f-4c5f-89a7-27a8fe82cfdf",
+                "text": "Fornisce un'interfaccia semplice per la creazione di famiglie di oggetti correlati o dipendenti senza specificarne le classi concrete"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa fa il design pattern 'Factory Method'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "49a93de0-6c02-420e-bc86-c83a86a5deaa",
+                "text": "Definisce un'interfaccia per la creazione di un oggetto, ma lascia alle sottoclassi la scelta delle classi da istanziare"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "b42ab8b0-5936-4f0e-8492-2cc579524399",
+                "text": "Crea un'istanza di una classe solo quando richiesto"
+              },
+              {
+                "id": "f065f0d2-925b-48db-b8ab-06d6ec49e7f3",
+                "text": "Garantire che una classe abbia una sola istanza"
+              },
+              {
+                "id": "3bc49762-90ed-49c7-89b3-12e3baf2c4cf",
+                "text": "Definisce una dipendenza uno a molti tra oggetti"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è il design pattern 'Strategy'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "916a37e7-5d02-4f66-89c0-c03822a31a5d",
+                "text": "Definisce una famiglia di algoritmi, incapsula ciascuno di essi e li rende intercambiabili. Permette all'algoritmo di variare indipendentemente dai client che lo utilizzano"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "8eb85c08-e9de-4e45-bc21-775321fa99a4",
+                "text": "Garantire che una classe abbia una sola istanza e fornire un punto di accesso globale a essa"
+              },
+              {
+                "id": "b36d2fbf-2952-4a6d-8ea9-95d4466922db",
+                "text": "Definisce un'interfaccia per la creazione di un oggetto"
+              },
+              {
+                "id": "31fcd7ff-4dd1-413f-a72b-e3ef4b2f67db",
+                "text": "Definisce una dipendenza uno a molti tra oggetti"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa fa il design pattern 'Facade'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "3a824d72-0eb1-4c19-bdb2-7d47017dfbd7",
+                "text": "Fornisce un'interfaccia unificata a un insieme di interfacce in un sistema. Definisce un'interfaccia di livello più alto che semplifica l'uso del sistema"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "c2d8b907-9ed9-4a04-9d27-158d8b8daacd",
+                "text": "Definisce un'interfaccia per la creazione di un oggetto"
+              },
+              {
+                "id": "059f22dd-0ebf-4e04-bb76-bb2a3ac8b0a2",
+                "text": "Garantire che una classe abbia una sola istanza"
+              },
+              {
+                "id": "df2b5863-1395-44a1-9f09-3c9235aa5f60",
+                "text": "Definisce una dipendenza uno a molti tra oggetti"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "f08e13b7-935f-4f85-81b7-1839432fe00c",
+      "title": "UI Design e Principi",
+      "subtitle": "Testa la tua conoscenza sui principi fondamentali del UI Design.",
+      "topic": "UI Design",
+      "text": "Il UI Design gioca un ruolo cruciale nell'esperienza dell'utente. Rispondi alle seguenti domande per verificare la tua comprensione dei principi fondamentali del UI Design.",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/d01c/5417/6ad8e50fc9689fb27d672807caa13513?Expires=1704672000&Signature=J8EN4vPOxNpFyFW3fixzWjC6OrpMnwFVs6Tovfg26JDPTZ8DXCQVdy5O-7fk0SHTeDY3VgAf9gfXHVFs-5qtO-e5CIHo~UrCqhB2l9pv5jI4p4zCFtFMrfs76rHXOSeXwUWp0RcLtYZqPc3BFF9aSHaSRXwPj3jQ2ts0xV8YzSMpX-wCCyK9CrZBCAeDZc7L26pULeAlXn-eyeL~y2IycqQkeztM0PhmRNkCRSdDI1xPVZc6cAqIhwZcAM-R5xHAkfIXjOJy416zGmAghxgZB8XPXJfIUf9LbEPQBdctL1iKPUTVAWOW5ZCu1c5lDNUudRe4lEw8UjwqX3BhxQ8-UQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "questions": [
+        {
+          "title": "Cos'è il UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "fb1e8477-8ec4-42ad-bda1-3a4c5b4de598",
+                "text": "Progettazione dell'interfaccia utente che rende un'applicazione o un sito web intuitivo, efficiente ed esteticamente piacevole"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "13b1048d-4885-4f37-9c59-365736176d16",
+                "text": "Programmazione del back-end di un sito web"
+              },
+              {
+                "id": "34fc14fc-5ad8-4a38-8d9a-9d5f2c1e18b6",
+                "text": "Creazione di contenuti scritti per un sito web"
+              },
+              {
+                "id": "4bf67045-45ae-4a91-894f-47e197f6c6d7",
+                "text": "Progettazione di hardware informatico"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la 'Leggibilità' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "eddfb03d-36b8-49ab-a244-6f25f9a19c66",
+                "text": "La facilità con cui il testo può essere letto e compreso"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "4b461bf0-cf9b-4f24-aa26-26e1a3c7bc1e",
+                "text": "L'aspetto visivo generale dell'interfaccia"
+              },
+              {
+                "id": "e5e4e6b9-79cc-4de2-8817-90b9606d4f1b",
+                "text": "La quantità di spazio bianco in un layout"
+              },
+              {
+                "id": "d3e3fb2f-635c-4e09-870b-54f48f2ac295",
+                "text": "La coerenza tra le varie pagine di un sito web"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è l'importanza della 'Consistenza' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "d42c1124-520b-44e1-8a68-d8b8c1f9e3e5",
+                "text": "Crea un'esperienza utente coesa e prevedibile attraverso l'intera applicazione o sito web"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "e305db45-586e-4a16-9244-944aa61b0cb5",
+                "text": "Rende il testo più leggibile"
+              },
+              {
+                "id": "bf6eb32a-7d50-4a13-b05f-d91805ea5e06",
+                "text": "Determina la quantità di spazio tra gli elementi di un layout"
+              },
+              {
+                "id": "bd128f79-9ce5-45f8-82f4-7257a3631550",
+                "text": "Influenza l'aspetto visivo generale dell'interfaccia"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa si intende per 'Feedback' nel contesto del UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "15e92c63-8821-4d3b-b85f-8f2c9d80d6d8",
+                "text": "Comunicazione visiva o auditiva che indica all'utente l'esito di un'azione"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "4a8c10d4-64e8-49cd-9f5b-ec5c3fcf9942",
+                "text": "La quantità di spazio bianco in un layout"
+              },
+              {
+                "id": "0ee0b162-3af3-4c8e-9f6c-49c47ce68ed5",
+                "text": "L'aspetto visivo generale dell'interfaccia"
+              },
+              {
+                "id": "f47f6c2a-68d9-42bf-8a18-48154df7f2f8",
+                "text": "La coerenza tra le varie pagine di un sito web"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è l'obiettivo della 'Gerarchia visiva' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "5d689ec9-0a79-4bc7-a8c7-4005d924c71f",
+                "text": "Guidare l'utente attraverso l'interfaccia mettendo in risalto gli elementi più importanti"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "9cd3a69b-2e50-489b-8f15-42b4b5b7687f",
+                "text": "Creare uno stile visivo unico per l'applicazione"
+              },
+              {
+                "id": "e4fbf977-3bea-4d84-952a-128a3d7bf554",
+                "text": "Determinare la quantità di spazio tra gli elementi di un layout"
+              },
+              {
+                "id": "189b4a05-f2ed-43f0-afbe-40de2591a8c7",
+                "text": "Garantire la leggibilità del testo"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa si intende per 'Usabilità' nel contesto del UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "e3947895-4b08-4f44-9e56-0fb6d619e4a1",
+                "text": "Facilità con cui gli utenti possono interagire con un'interfaccia per raggiungere i propri obiettivi"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "51721c23-bf07-446a-bac7-67c1bb55374b",
+                "text": "La quantità di spazio bianco in un layout"
+              },
+              {
+                "id": "94f9e571-6a76-4d11-83e9-4615b89be37f",
+                "text": "L'aspetto visivo generale dell'interfaccia"
+              },
+              {
+                "id": "b08442ce-987a-4fb4-b090-48720ccf7785",
+                "text": "La coerenza tra le varie pagine di un sito web"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Perché è importante l' 'Utilizzo dei colori' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "5585de23-4e39-46c8-a875-8a929b476eaf",
+                "text": "I colori possono influenzare l'umore degli utenti e migliorare la comprensione delle informazioni"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "e0c28793-52b1-4d9e-9092-7b62d91290db",
+                "text": "I colori sono importanti solo per motivi estetici"
+              },
+              {
+                "id": "2bc235ea-4c29-4780-b0f7-f0926e5f0f93",
+                "text": "I colori non hanno alcun impatto sull'esperienza dell'utente"
+              },
+              {
+                "id": "1ebead4b-8687-4950-bf1c-bba8b23d20e7",
+                "text": "I colori non devono mai essere utilizzati in un'interfaccia"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa include la 'Navigabilità' in un'interfaccia utente?",
+          "answers": {
+            "correct": [
+              {
+                "id": "8732e400-cf12-4ed2-bbe9-55a44abf5af4",
+                "text": "La facilità con cui gli utenti possono spostarsi tra le diverse sezioni dell'applicazione o del sito web"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "b1a3e149-c77d-4329-827c-244b69646c95",
+                "text": "Il numero totale di pagine di un sito web"
+              },
+              {
+                "id": "25a7078f-ec08-4cd5-91f2-0e62f2a5d942",
+                "text": "La quantità di testo presente in un'interfaccia"
+              },
+              {
+                "id": "33ee0677-9141-47db-ba3b-58305f98d87e",
+                "text": "La coerenza tra le varie pagine di un sito web"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la 'Semplicità' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "be72b720-6b97-4f7e-af1f-6f3e12a1b741",
+                "text": "Riduzione di elementi non necessari per semplificare l'interfaccia e migliorare l'usabilità"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "85a11b8f-19cb-4db1-8d94-1d88b4b892f9",
+                "text": "Inclusione di più elementi per rendere l'interfaccia più complessa"
+              },
+              {
+                "id": "b77e44cc-5a9c-42d1-a54d-d4e88ddc2f34",
+                "text": "Aumento del numero di colori utilizzati in un'interfaccia"
+              },
+              {
+                "id": "e3c64eaf-1683-4e6c-967d-16d966f20b83",
+                "text": "Aggiunta di elementi interattivi senza scopo"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il termine 'Affordance' nel contesto del UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "e0f64033-674b-45cd-8d67-187ec7d3f0f5",
+                "text": "Suggerisce visivamente la funzione o l'utilizzo di un elemento interattivo"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "e7c3e1b1-08d9-45c2-b84c-2e7a932bb177",
+                "text": "Quantità di spazio vuoto in un layout"
+              },
+              {
+                "id": "2c49849f-0f21-4c4a-bade-fbf77cfbd06e",
+                "text": "Coerenza tra le varie pagine di un sito web"
+              },
+              {
+                "id": "b2a73d4f-23bf-4b2e-8107-e6d03d064cd0",
+                "text": "Numero totale di pagine di un sito web"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa implica il principio della 'Familiarietà' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "f7e14bd0-9616-4e54-b476-c1c940587197",
+                "text": "Utilizzo di elementi riconoscibili e familiari per gli utenti"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "22f5758a-75a7-4a12-b2d3-25e3177bae1e",
+                "text": "Creazione di un'interfaccia complessa e innovativa"
+              },
+              {
+                "id": "8928efc7-af64-4d13-98bf-6e6fe3a625ab",
+                "text": "Utilizzo di colori accattivanti a discapito della chiarezza"
+              },
+              {
+                "id": "6342ce18-216b-45c1-82bf-bf9db95e072b",
+                "text": "Riduzione della familiarità per stimolare la curiosità"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è il ruolo della 'Scalabilità' nel contesto del UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "f7e14bd0-9616-4e54-b476-c1c940587197",
+                "text": "L'interfaccia mantiene la sua efficienza e usabilità anche con l'aumentare della complessità o delle dimensioni del sistema"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "22f5758a-75a7-4a12-b2d3-25e3177bae1e",
+                "text": "Limita le funzionalità dell'interfaccia per semplificare l'esperienza"
+              },
+              {
+                "id": "8928efc7-af64-4d13-98bf-6e6fe3a625ab",
+                "text": "Aumenta la complessità dell'interfaccia senza alcun beneficio"
+              },
+              {
+                "id": "6342ce18-216b-45c1-82bf-bf9db95e072b",
+                "text": "Migliora l'usabilità solo su dispositivi desktop"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la 'Metàfora' nel contesto del UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "L'uso di elementi visivi o concetti familiari per rappresentare funzionalità o informazioni"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "Limitazione dell'uso di elementi visivi nell'interfaccia"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "Creazione di un'interfaccia totalmente astratta"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Rappresentazione letterale di ogni funzionalità"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è l'obiettivo della 'Gestalt Theory' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "Comprendere come gli utenti percepiranno e interpreteranno gli elementi visivi nel loro insieme"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "Promuovere la complessità dell'interfaccia"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "Limitare la varietà di elementi visivi nell'interfaccia"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Fornire indicazioni dettagliate per ogni singolo elemento"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa implica il principio della 'Progressive Disclosure' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "Rivelare informazioni complesse o opzioni avanzate solo quando sono necessarie o richieste dall'utente"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "Mostrare tutte le informazioni e le opzioni disponibili fin dall'inizio"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "Nascondere completamente tutte le opzioni avanzate"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Limitare l'accesso alle informazioni di base"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa significa 'Error Prevention' nel contesto del UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "Implementare design e feedback che riducano la possibilità di errori da parte degli utenti"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "Incentivare gli utenti a commettere errori per imparare"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "Ignorare completamente la prevenzione degli errori"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Risolvere gli errori solo dopo che si sono verificati"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Perché è importante l' 'User Feedback' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "Fornisce agli utenti informazioni sulla riuscita o meno delle loro azioni"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "È utile solo durante la fase di test iniziale"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "Non ha alcun impatto sull'esperienza dell'utente"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Dovrebbe essere fornito solo su richiesta dell'utente"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa implica il principio dell' 'Error Recovery' nel UI Design?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "Fornire agli utenti mezzi efficaci per correggere errori di input o azioni indesiderate"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "Ignorare completamente la possibilità di errori"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "Richiedere agli utenti di contattare il supporto tecnico per risolvere gli errori"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Chiedere agli utenti di abbandonare l'azione e ricominciare da capo"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il termine 'Aesthetic-Usability Effect'?",
+          "answers": {
+            "correct": [
+              {
+                "id": "ec8bfbf3-7ef1-47bb-994d-232c9ce69093",
+                "text": "La percezione degli utenti che ritengono che un sistema più attraente visualmente sia anche più facile da utilizzare"
+              }
+            ],
+            "wrong": [
+              {
+                "id": "a708a5f9-ef6c-4cfd-b570-43362d7fb7c2",
+                "text": "L'importanza dell'usabilità a discapito dell'aspetto visivo"
+              },
+              {
+                "id": "d1a52a3d-d4f5-442a-b5a7-b5cf23a6674b",
+                "text": "La percezione che un sistema meno attraente sia più facile da utilizzare"
+              },
+              {
+                "id": "4d5ea2e3-070f-4efb-b6f5-dfd59e7197a9",
+                "text": "Non c'è alcuna relazione tra aspetto visivo e usabilità"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "1a2b3c4d-5e6f-7a8b-9c0d",
+      "title": "Fisica: Principi Fondamentali",
+      "subtitle": "Testa la tua conoscenza sui principi fondamentali della Fisica.",
+      "topic": "Fisica",
+      "text": "La Fisica è la scienza che studia le leggi fondamentali della natura. Rispondi alle seguenti domande per verificare la tua comprensione dei principi fondamentali della Fisica.",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/fa27/fce4/d9d23ea88732bd4b15d074fc2ec20432?Expires=1704672000&Signature=e37sxxKoh00oV87oak4uSqJVe~Y9UuMnx3D1rwbhYEoioaihJFmO8nqTdBXGAbdDpmZtmil86AF7YfOzqnwWfyTe7alUZFvbXpw7iWjLXeAvpl1NFl4hgu2RC~DK0TcWWOZQTNEBtzPN5QXeBoCqJPMJSN00aXze7sD1iIecQQlEhIN6i~HxAh0Ht8CCNnqG0Vh0rnE44685gazNNII~Jilu0DbyvLOthTVn2WYwxyIn~kttd5VPU-V1u9dVG296NYp7g9furKn09stx3T4J4lQd84RfFQFomngQ4gx~ReCKW4bSTQGvb0K91u6aGgjhd-hFi2pO8wPV7F3McHMJRg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "questions": [
+        {
+          "title": "Cos'è la legge di gravità di Newton?",
+          "answers": {
+            "correct": [
+              {
+                "id": "123e4567-e89b-12d3-a456-426614174001",
+                "text": "Ogni particella di materia nell'Universo attrae ogni altra particella con una forza direttamente proporzionale al prodotto delle loro masse e inversamente proporzionale al quadrato della distanza tra le loro posizioni."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "567e8901-23ab-45cd-a678-901234567890",
+                "text": "La forza che agisce su un corpo è direttamente proporzionale alla sua velocità."
+              },
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "La pressione di un gas è inversamente proporzionale al suo volume."
+              },
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "L'energia totale in un sistema isolato rimane costante nel tempo."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la legge di conservazione dell'energia?",
+          "answers": {
+            "correct": [
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "L'energia in un sistema isolato rimane costante nel tempo; può solo cambiare forma o trasferirsi da un corpo all'altro."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "L'energia totale di un sistema può aumentare indefinitamente nel tempo."
+              },
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "L'energia si crea e si distrugge continuamente nel cosmo."
+              },
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "L'energia è limitata a una quantità fissa in qualsiasi sistema."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa studia la Termodinamica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "La termodinamica studia le relazioni tra il calore trasferito, il lavoro compiuto e le variazioni di stato dei sistemi termodinamici."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "La termodinamica si occupa solo dello studio dei gas."
+              },
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "La termodinamica è interessata solo alle leggi del moto dei corpi celesti."
+              },
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "La termodinamica non ha applicazioni pratiche nella vita quotidiana."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è la legge dei gas ideali?",
+          "answers": {
+            "correct": [
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "La legge dei gas ideali afferma che il prodotto della pressione e del volume di un gas è direttamente proporzionale alla temperatura e alla quantità di sostanza presente, utilizzando la costante dei gas."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "La pressione di un gas è indipendente dalla sua temperatura."
+              },
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Il volume di un gas non cambia con la temperatura."
+              },
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "I gas ideali non obbediscono a leggi specifiche."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è l'elettromagnetismo?",
+          "answers": {
+            "correct": [
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "L'elettromagnetismo è una branca della fisica che studia l'interazione tra cariche elettriche e campi magnetici."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "L'elettromagnetismo si occupa solo delle proprietà magnetiche dei materiali."
+              },
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "L'elettromagnetismo è limitato solo alle applicazioni tecnologiche."
+              },
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "L'elettromagnetismo non ha alcuna relazione con l'elettricità."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è la legge di Boyle?",
+          "answers": {
+            "correct": [
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "La legge di Boyle afferma che, a temperatura costante, il volume di una massa di gas è inversamente proporzionale alla sua pressione."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "La legge di Boyle afferma che il volume di una massa di gas è direttamente proporzionale alla sua pressione."
+              },
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "La legge di Boyle si applica solo ai gas nobili."
+              },
+              {
+                "id": "01234567-2345-6789-0123-456789012345",
+                "text": "La legge di Boyle riguarda solo la relazione tra temperatura e volume."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la seconda legge della termodinamica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "La seconda legge della termodinamica afferma che il calore non può fluire spontaneamente da un corpo più freddo a uno più caldo, e che l'entropia di un sistema isolato aumenta nel tempo."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "01234567-2345-6789-0123-456789012345",
+                "text": "La seconda legge della termodinamica sostiene che il calore fluisce sempre dal corpo più freddo a quello più caldo."
+              },
+              {
+                "id": "12345678-3456-7890-1234-567890123456",
+                "text": "La seconda legge della termodinamica è solo una teoria ipotetica senza applicazioni pratiche."
+              },
+              {
+                "id": "23456789-4567-8901-2345-678901234567",
+                "text": "La seconda legge della termodinamica si applica solo ai sistemi chiusi."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è la teoria della relatività di Einstein?",
+          "answers": {
+            "correct": [
+              {
+                "id": "90123456-7890-1234-5678-012345678901",
+                "text": "La teoria della relatività di Einstein afferma che lo spazio e il tempo sono strettamente legati e che la massa di un oggetto determina la curvatura dello spazio intorno ad esso."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "12345678-9012-3456-7890-123456789012",
+                "text": "La teoria della relatività di Einstein riguarda solo la luce e le sue proprietà."
+              },
+              {
+                "id": "23456789-0123-4567-8901-234567890123",
+                "text": "La teoria della relatività non ha applicazioni pratiche nella vita quotidiana."
+              },
+              {
+                "id": "34567890-1234-5678-9012-345678901234",
+                "text": "La teoria della relatività si applica solo alle particelle subatomiche."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Qual è il principio di indeterminazione di Heisenberg?",
+          "answers": {
+            "correct": [
+              {
+                "id": "45678901-2345-6789-0123-456789012345",
+                "text": "Il principio di indeterminazione di Heisenberg afferma che non è possibile conoscere simultaneamente con precisione la posizione e la quantità di moto di una particella."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "56789012-3456-7890-1234-567890123456",
+                "text": "Il principio di indeterminazione si applica solo alle particelle cariche elettricamente."
+              },
+              {
+                "id": "67890123-4567-8901-2345-678901234567",
+                "text": "Il principio di indeterminazione è una legge della meccanica classica."
+              },
+              {
+                "id": "78901234-5678-9012-3456-789012345678",
+                "text": "Il principio di indeterminazione viola il principio di conservazione dell'energia."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è la forza elettrostatica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "89012345-6789-0123-4567-890123456789",
+                "text": "La forza elettrostatica è una forza di attrazione o repulsione tra cariche elettriche, proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza tra di esse."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "90123456-7890-1234-5678-012345678901",
+                "text": "La forza elettrostatica si manifesta solo tra magneti."
+              },
+              {
+                "id": "12345678-9012-3456-7890-123456789012",
+                "text": "La forza elettrostatica agisce solo su particelle cariche positivamente."
+              },
+              {
+                "id": "23456789-0123-4567-8901-234567890123",
+                "text": "La forza elettrostatica è indipendente dalla distanza tra le cariche."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa afferma la legge di Ohm?",
+          "answers": {
+            "correct": [
+              {
+                "id": "34567890-1234-5678-9012-345678901234",
+                "text": "La legge di Ohm afferma che la corrente che scorre attraverso un conduttore è direttamente proporzionale alla tensione e inversamente proporzionale alla resistenza."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "45678901-2345-6789-0123-456789012345",
+                "text": "La legge di Ohm si applica solo ai circuiti complessi."
+              },
+              {
+                "id": "56789012-3456-7890-1234-567890123456",
+                "text": "La corrente e la tensione sono sempre indipendenti nella legge di Ohm."
+              },
+              {
+                "id": "67890123-4567-8901-2345-678901234567",
+                "text": "La legge di Ohm si applica solo a temperature molto basse."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa studia la meccanica quantistica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "78901234-5678-9012-3456-789012345678",
+                "text": "La meccanica quantistica è la branca della fisica che studia il comportamento delle particelle subatomiche e le loro interazioni, incorporando il concetto di dualità onda-particella."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "89012345-6789-0123-4567-890123456789",
+                "text": "La meccanica quantistica si occupa solo di oggetti di dimensioni macroscopiche."
+              },
+              {
+                "id": "90123456-7890-1234-5678-012345678901",
+                "text": "La meccanica quantistica è una teoria obsoleta."
+              },
+              {
+                "id": "12345678-9012-3456-7890-123456789012",
+                "text": "La meccanica quantistica è limitata solo ai fenomeni ottici."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-e5f6-a7b8-c9d0",
+      "title": "Chimica: Concetti di Base",
+      "subtitle": "Testa la tua conoscenza sui concetti fondamentali di Chimica.",
+      "topic": "Chimica",
+      "text": "La Chimica è la scienza che studia la composizione, la struttura, le proprietà e i cambiamenti della materia. Rispondi alle seguenti domande per verificare la tua comprensione dei concetti di base della Chimica.",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/41c1/d84a/a5d551dd68b5ee39845a58837cadbdb8?Expires=1704672000&Signature=frb6Wsr0s~otm9DFhQ-XX08zH-4VpZ0asJB6Yddq7q11fll3jzunLTR2nv3FrvrtOoM8OSZqRqh5vnMw2dbXFqVzpEpF6qVV3V~QGMkK8E5mPtL1YA7RzbdWrfkeofIIM89ka~GmAun6aBX4jpaSj0J2YZ1nLZRF~rAiAvrFaxtETNC-krg7eF8jeKgGuET3dFPoy5P3rJHgv1lgMyyKPbLscozolQR8l-vuufOU~Pz4rXaEWay8g5jhoTtD2O7We1GKBzZY4wCJ2njGHZwF9PB97W9J8~vpjBwFPu4pxrI-C1AUArj31Zcx4GuyZuQCwEfD6e~E6lysE55zgqEZbQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "questions": [
+        {
+          "title": "Cos'è un atomo?",
+          "answers": {
+            "correct": [
+              {
+                "id": "123e4567-e89b-12d3-a456-426614174001",
+                "text": "Un atomo è la più piccola unità di un elemento chimico, costituita da un nucleo di protoni e neutroni, con elettroni che orbitano intorno ad esso."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "567e8901-23ab-45cd-a678-901234567890",
+                "text": "Un atomo è una molecola composta da vari elementi chimici."
+              },
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "Gli atomi sono visibili ad occhio nudo."
+              },
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "Gli atomi sono costituiti solo da elettroni."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il numero atomico di un elemento?",
+          "answers": {
+            "correct": [
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "Il numero atomico di un elemento rappresenta il numero di protoni nel suo nucleo."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "Il numero atomico indica il peso totale dell'elemento."
+              },
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "Il numero atomico è il numero di neutroni in un atomo."
+              },
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Il numero atomico è irrilevante per le proprietà chimiche degli elementi."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa è una molecola?",
+          "answers": {
+            "correct": [
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "Una molecola è un gruppo di atomi legati chimicamente, rappresenta la più piccola unità di una sostanza che mantiene le sue proprietà chimiche."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "Una molecola è un singolo atomo."
+              },
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Le molecole sono visibili solo attraverso un microscopio."
+              },
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Le molecole sono sempre in forma gassosa."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il pH in chimica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "Il pH è una misura dell'acidità o della basicità di una soluzione, con valori inferiori a 7 che indicano un ambiente acido, 7 neutro e valori superiori a 7 basico."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Il pH misura la temperatura di una soluzione chimica."
+              },
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Il pH si riferisce alla pressione di un gas in una soluzione."
+              },
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "Il pH è una misura della densità di una sostanza chimica."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa è una reazione redox?",
+          "answers": {
+            "correct": [
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Una reazione redox è una reazione chimica in cui avviene contemporaneamente l'ossidazione di una sostanza e la riduzione di un'altra."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Le reazioni redox coinvolgono solo sostanze gassose."
+              },
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "Le reazioni redox non coinvolgono lo scambio di elettroni."
+              },
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "Le reazioni redox sono sempre reversibili."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la tavola periodica degli elementi?",
+          "answers": {
+            "correct": [
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "La tavola periodica degli elementi organizza gli elementi in base alle loro proprietà chimiche, mostrando la tendenza periodica delle proprietà."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "La tavola periodica rappresenta solo gli elementi radioattivi."
+              },
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "La tavola periodica è basata solo sul peso atomico degli elementi."
+              },
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "La tavola periodica non ha alcuna relazione con la Chimica."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa sono gli ioni?",
+          "answers": {
+            "correct": [
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "Gli ioni sono atomi che hanno guadagnato o perso elettroni, diventando carichi positivamente o negativamente."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "Gli ioni sono atomi privi di protoni."
+              },
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "Gli ioni sono sempre neutri."
+              },
+              {
+                "id": "01234567-89ab-0123-4567-890123456789",
+                "text": "Gli ioni sono sempre più grandi degli atomi normali."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è la catalisi in chimica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "La catalisi è il processo per cui un catalizzatore aumenta la velocità di una reazione chimica senza subire alterazioni chimiche permanenti."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "01234567-89ab-0123-4567-890123456789",
+                "text": "La catalisi rallenta le reazioni chimiche."
+              },
+              {
+                "id": "12345678-9abc-0123-4567-890123456789",
+                "text": "La catalisi interrompe completamente le reazioni chimiche."
+              },
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "La catalisi ha solo effetti negativi sulle reazioni chimiche."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-e5f6-a7b8-c9d2",
+      "title": "Matematica: Fondamenti",
+      "subtitle": "Testa la tua conoscenza sui principi fondamentali della Matematica.",
+      "topic": "Matematica",
+      "text": "La Matematica è la scienza delle quantità, delle strutture, dello spazio e del cambiamento. Rispondi alle seguenti domande per verificare la tua comprensione dei fondamenti della Matematica.",
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/26c4/977d/648ced95849a82038f7852dfea5ea4e8?Expires=1704672000&Signature=V5rx9HAQApsYblZXFnGPN7un7bhWiJDpasL7YaxwdDF7hrP4YWcFTG~mlGLhR915AaMbaMnn4R4Q9jps4hckSNQYSIInhYu922FVKhDwlxQdViAWXUl7QXOvg2yXzyVYqQ~9arC8GnUKJFpLSZ-FymFAGGlMHkJ22OQ-VISx5~dljodnOWPAMxWZFVMDDetXsL7LfVBCfky1uFGHxSirqvJwHk7P2MAPQpodTB7EO9XqscK1MVxLS2lLzz4pwd2McU-0DFduDCHw4Q8~~76DnCUkhb-qaLrhgrvom1fqEwVVnt0ByhHDQeJgP0i7XVGCYGuuyyn89HAok3GUStf7Vw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "questions": [
+        {
+          "title": "Cos'è un numero primo?",
+          "answers": {
+            "correct": [
+              {
+                "id": "123e4567-e89b-12d3-a456-426614174001",
+                "text": "Un numero primo è un numero maggiore di 1 che non ha divisori oltre a 1 e se stesso."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "567e8901-23ab-45cd-a678-901234567890",
+                "text": "Un numero primo è un numero pari."
+              },
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "Un numero primo è sempre un numero dispari."
+              },
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "Un numero primo può essere negativo."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il teorema di Pitagora?",
+          "answers": {
+            "correct": [
+              {
+                "id": "23456789-abcd-1234-5678-012345678901",
+                "text": "Il teorema di Pitagora afferma che, in un triangolo rettangolo, il quadrato dell'ipotenusa è uguale alla somma dei quadrati degli altri due lati."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "Il teorema di Pitagora si applica solo a triangoli equilateri."
+              },
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "Il teorema di Pitagora riguarda solo i triangoli isosceli."
+              },
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Il teorema di Pitagora è valido solo per i triangoli acuti."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa sono le equazioni quadratiche?",
+          "answers": {
+            "correct": [
+              {
+                "id": "34567890-bcde-5678-9012-345678901234",
+                "text": "Le equazioni quadratiche sono equazioni di secondo grado, spesso nella forma ax^2 + bx + c = 0, e possono avere due soluzioni reali, una soluzione doppia o nessuna soluzione reale."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "Le equazioni quadratiche hanno sempre una sola soluzione."
+              },
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Le equazioni quadratiche riguardano solo numeri razionali."
+              },
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Le equazioni quadratiche non hanno soluzioni reali."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il numero π (pi greco)?",
+          "answers": {
+            "correct": [
+              {
+                "id": "45678901-cdef-2345-6789-012345678901",
+                "text": "Il numero π rappresenta il rapporto tra la circonferenza di un cerchio e il suo diametro. È una costante approssimativamente uguale a 3.14159."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Il numero π è esattamente uguale a 4."
+              },
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Il numero π è un numero intero."
+              },
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "Il numero π è minore di 3."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cos'è il calcolo differenziale?",
+          "answers": {
+            "correct": [
+              {
+                "id": "56789012-def0-3456-7890-123456789012",
+                "text": "Il calcolo differenziale è un ramo della matematica che si occupa delle tasse di variazione e delle derivate di funzioni."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "Il calcolo differenziale è limitato solo ai numeri interi."
+              },
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "Il calcolo differenziale riguarda solo l'aritmetica di base."
+              },
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "Il calcolo differenziale non ha applicazioni pratiche nella vita quotidiana."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta la costante e (numero di Nepero) in matematica?",
+          "answers": {
+            "correct": [
+              {
+                "id": "67890123-ef01-4567-8901-234567890123",
+                "text": "La costante e è una costante matematica approssimativamente uguale a 2.71828. È la base dei logaritmi naturali e ha numerose applicazioni in matematica e scienze."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "La costante e è esattamente uguale a 3."
+              },
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "La costante e rappresenta il numero di Archimede."
+              },
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "La costante e non ha alcuna utilità in matematica."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Cosa rappresenta il teorema del limite centrale?",
+          "answers": {
+            "correct": [
+              {
+                "id": "78901234-f012-5678-9012-345678901234",
+                "text": "Il teorema del limite centrale afferma che, con un numero sufficientemente grande di campioni casuali, la distribuzione delle medie campionarie seguirà una distribuzione normale, indipendentemente dalla forma della distribuzione originale."
+              }
+            ],
+            "wrong": [
+              {
+                "id": "89012345-0123-6789-0123-456789012345",
+                "text": "Il teorema del limite centrale si applica solo a dati non casuali."
+              },
+              {
+                "id": "90123456-1234-5678-9012-345678901234",
+                "text": "Il teorema del limite centrale afferma che tutte le distribuzioni sono uniformi."
+              },
+              {
+                "id": "01234567-89ab-0123-4567-890123456789",
+                "text": "Il teorema del limite centrale è valido solo per piccoli campioni."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

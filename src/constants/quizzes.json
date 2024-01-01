@@ -1,0 +1,261 @@
+[
+  {
+    "title": "Kubernetes",
+    "subtitle": "Perché nel 2023 un software engineer dovrebbe saper utilizzare Kubernetes?",
+    "topic": "Software engineering",
+    "text": "Kubernetes è un sistema open source che ti aiuta a distribuire, scalare e gestire applicazioni containerizzate ovunque",
+    "imageUrl": "https://s3-alpha-sig.figma.com/img/3107/78b6/7831082abdc11824ebfdc6d6c7cf3f39?Expires=1704067200&Signature=et26jGi416k9F8VcAjcJUaguaVBgdUDVuoXUYqe9-mGD18KGtTF3zra~~JEHYVuURSo9WyhfV9BZslu8h2HryR7TQ4sPva85nr7hdQkL1U8nqoQxxI7F60CpZUuK0DMQ-Wt5rizluILbBnPMVwh3DPNbcleBgesEYou9EmmuatWKbU9JMKJZFOv1GoGFe2U-yUlXsV1a5ufyXqDMgrig9apHwQ9flXSM~PLis9iafk7wzvNYIU7XtcoSddZJrn6eQpYrmPg7Oi7UXSoZnNfB9gPeFR6GHtHf9Tag5SftNMGmcOTUzKgUkHifqRWLK-ku36gfPAbbrmE8zSFuyUlTfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "questions": [
+      {
+        "question": "Cos'è un pod in Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "b2fd3a58-1294-4d0c-ae76-84a3e7ce601f",
+              "text": "La più piccola unità gestita da Kubernetes, che può contenere uno o più container"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "c783b41f-ff3c-496a-ba38-7e4484d8c89e",
+              "text": "Un singolo container in esecuzione su un nodo"
+            },
+            {
+              "id": "d1477b88-cb20-4ef6-b188-0982d244327a",
+              "text": "Un modulo software di rete utilizzato da Kubernetes"
+            },
+            {
+              "id": "a75c6a49-3e44-4167-a979-4bfc53e93742",
+              "text": "Un'istanza di un'applicazione in esecuzione su un cluster Kubernetes"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Qual è la funzione principale del servizio Kubernetes 'NodePort'?",
+        "answers": {
+          "correct": [
+            {
+              "id": "0d6a8e1c-6e3f-43cd-ba09-cf172d7e485a",
+              "text": "Esposizione di un servizio su una porta statica del nodo"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "7a7588f3-4bf9-4f20-af4b-1d590a86c8f8",
+              "text": "Bilanciamento del carico tra i nodi del cluster"
+            },
+            {
+              "id": "ea9b33e4-6e29-4a27-8bc3-5126a5cf29c3",
+              "text": "Creazione di un nuovo nodo nel cluster"
+            },
+            {
+              "id": "8e2e4f17-0ddc-4e1c-8a33-c2ce49376b41",
+              "text": "Gestione della sicurezza delle risorse del nodo"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Qual è il ruolo di 'kubectl' nel contesto di Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "2f69d07a-4c46-41e7-bc6f-0e9e2549a855",
+              "text": "Una interfaccia della riga di comando (CLI) per interagire con cluster Kubernetes"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "165a5ad2-4a37-4b1d-8f3e-8c48aa28f67e",
+              "text": "Un servizio di monitoraggio delle risorse del cluster"
+            },
+            {
+              "id": "9e3a76d2-207c-42e7-9a1d-4486730843bb",
+              "text": "Un componente del sistema operativo del nodo"
+            },
+            {
+              "id": "e5db5d7f-0f1b-49b3-8ac0-c69b7c707f2c",
+              "text": "Un linguaggio di programmazione specifico di Kubernetes"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Cosa si intende per 'Rolling Deployment' in Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "c5b5c196-276c-4c10-baa9-90a5422e1db3",
+              "text": "Un metodo per aggiornare un'applicazione senza interruzioni, sostituendo gradualmente le vecchie istanze con le nuove"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "c8a9f679-7ac6-4d61-8c93-3abedaf2e98d",
+              "text": "Un'operazione di arresto e avvio simultaneo di tutte le istanze dell'applicazione"
+            },
+            {
+              "id": "8ff5f9a1-15d7-4ba5-a340-e7a65fb30017",
+              "text": "La creazione di una copia identica dell'applicazione su un altro cluster Kubernetes"
+            },
+            {
+              "id": "303ec3a9-2596-45e7-9a90-ece7be50c999",
+              "text": "Un'operazione che richiede la creazione di un nuovo cluster per l'applicazione"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Cosa rappresenta il concetto di 'Namespace' in Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "62d04cfd-45cc-4a3a-8883-77b0bf5f9e6d",
+              "text": "Un modo per isolare e organizzare gli oggetti all'interno di un cluster"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "f161c1d8-4994-4e67-a3a2-274dbca3e71d",
+              "text": "Un livello di isolamento tra diversi cluster Kubernetes"
+            },
+            {
+              "id": "fd48fe97-700d-4e23-95d2-ea50b6f51525",
+              "text": "Un tipo di risorsa di archiviazione persistente in Kubernetes"
+            },
+            {
+              "id": "4dd6cd0c-c6da-4ab5-b631-b113e3e2bb57",
+              "text": "Una specifica versione di un'applicazione in esecuzione su Kubernetes"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Come gestisce Kubernetes la distribuzione di applicazioni su più nodi?",
+        "answers": {
+          "correct": [
+            {
+              "id": "a6749c8c-8d56-4a84-944d-7801d09baf3a",
+              "text": "Utilizzando il concetto di 'ReplicaSet' per mantenere il numero desiderato di repliche in esecuzione"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "4f3d8a99-d7b2-4921-9d63-d93655b8a363",
+              "text": "Spostando manualmente le istanze dell'applicazione tra i nodi"
+            },
+            {
+              "id": "e305eada-4a8d-4a13-9531-8d313c2dbad2",
+              "text": "Creando copie identiche dell'applicazione su ciascun nodo"
+            },
+            {
+              "id": "47d3c7b2-9122-4ff8-8eab-5d1c87410fbf",
+              "text": "Assegnando nodi specifici per ciascuna istanza dell'applicazione"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Qual è l'obiettivo principale del componente 'etcd' in un cluster Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "e747d57d-b6b0-4f6f-95db-40d76c9e667f",
+              "text": "Memorizzazione dello stato del cluster, inclusi i dati di configurazione e le informazioni sullo stato"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "a8c65a68-6c5e-4cf9-933a-49f8b8e888e9",
+              "text": "Esecuzione delle applicazioni containerizzate"
+            },
+            {
+              "id": "41a78c4c-3a87-4f95-a241-4a5a18bcf650",
+              "text": "Gestione del bilanciamento del carico del cluster"
+            },
+            {
+              "id": "d723042d-f35f-480a-aa6d-034c401b5c3d",
+              "text": "Registrazione e monitoraggio delle attività dei container"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Cosa si intende per 'Control Plane' (o piano di controllo) in Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "f6ac1e29-d695-4975-b35c-0a9e0eef3af2",
+              "text": "Il componente che gestisce e controlla lo stato complessivo del cluster"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "2b115524-3c2d-4500-9e0d-0e4e1e7e8b11",
+              "text": "Un'interfaccia grafica per la gestione dei container"
+            },
+            {
+              "id": "de0c25c1-4e23-40eb-8235-d7587b5bfa21",
+              "text": "Un componente dedicato alla gestione della rete del cluster"
+            },
+            {
+              "id": "f6c7e6d4-89e2-4b62-bf3d-19cf186c628c",
+              "text": "Il componente che gestisce l'accesso e l'autenticazione degli utenti"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Come affronta Kubernetes il problema dell'allocazione delle risorse nei container?",
+        "answers": {
+          "correct": [
+            {
+              "id": "2af3b2f9-3a90-4c16-9a7b-201b6c747f8b",
+              "text": "Attraverso il concetto di 'Limiti' e 'Richieste' di risorse assegnate ai container"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "8903c686-9b3f-4561-8ef2-4aa9b346c2f1",
+              "text": "Assegnando risorse in modo casuale ai container"
+            },
+            {
+              "id": "6a01a067-3f35-4b14-bd7d-622b3ea97c1b",
+              "text": "Fissando una quantità fissa di risorse per tutti i container"
+            },
+            {
+              "id": "1058993f-7877-45bf-a7f3-e9bf6e9775ec",
+              "text": "Lasciando che i container condividano liberamente le risorse del nodo"
+            }
+          ]
+        }
+      },
+      {
+        "question": "Qual è il ruolo principale di 'kube-proxy' in Kubernetes?",
+        "answers": {
+          "correct": [
+            {
+              "id": "f6c88d3f-c33c-48a0-8f6b-1d06f44b8d65",
+              "text": "Gestire le regole di rete all'interno del cluster e abilitare la comunicazione tra i pod"
+            }
+          ],
+          "wrong": [
+            {
+              "id": "e5003d10-876d-4a2e-b07e-9bebc179c0f4",
+              "text": "Monitorare le prestazioni del cluster Kubernetes"
+            },
+            {
+              "id": "f590eac4-8c94-4f68-9d14-320db72aa6b1",
+              "text": "Fornire l'accesso all'interfaccia web del cluster"
+            },
+            {
+              "id": "4a0e5b10-6c98-4c10-b6f5-3bf0d66a50d2",
+              "text": "Gestire la persistenza dei dati dei container"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

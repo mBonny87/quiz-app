@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .container-between-center {
+    @apply flex justify-between items-center;
+  }
+  .container-column-start {
+    @apply flex flex-col items-start;
+  }
+  .container-column-center {
+    @apply flex flex-col justify-center items-center;
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  @apply bg-slate-50;
+}
+
+body,
+#root {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+}
